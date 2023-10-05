@@ -1,0 +1,68 @@
+.container{
+    display:inline-block;
+    padding: 5px;
+    margin-top: 10vh;
+}
+.OutPut{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    text-align: center; 
+    color: rgb(35, 35, 209);;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(158, 220, 127);
+}
+ul{
+    padding-left: 0;
+}
+li{
+    list-style-type: none;
+}
+button {
+    height: 39px;
+    width: 100px;
+    color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    background-color: green;
+}
+button:hover{
+    background-color: rgba(13, 216, 57, 0.856);
+    border: 1px solid rgba(13, 216, 57, 0.856);
+    color: black;
+}
+ul button:hover{
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 3px;
+}
+ul div{
+    margin-top: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    color: rgb(35, 35, 209);
+    font-size: medium;
+    padding-left:10px ;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 5px;
+}
+ul button{
+    color: black;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius:3px;
+    background-color: rgba(255, 123, 0, 0.849);
+}
+input{
+    width: 35vw;
+    height: 35px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    padding-left: 10px;
+    font-size: medium;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
